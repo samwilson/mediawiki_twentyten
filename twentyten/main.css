@@ -1,0 +1,8 @@
+.printfooter { display:none }
+a { color:#007296 }
+.editsection { font-size:smaller; color:#777 }
+.editsection a { color:#777; text-decoration:none }
+.editsection a:hover { color:#007296 }
+
+#site-title img { display:inline; height:30px; border:0 }
+#site-generator a { display:inline; padding:0; text-decoration:underline }

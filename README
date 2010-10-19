@@ -1,0 +1,27 @@
+This is a port of the TwentyTen WordPress theme to MediaWiki.
+
+INSTALLATION:
+
+1. Copy the files to the 'skins' directory of your MediaWiki install.
+
+2. In LocalSettings.php set the following variables (they can be either
+   relative or full URLs):
+
+   $wgLogo             = "http://example.com/logo.jpg";
+   $wgTwentytenHeader  = "$wgStylePath/twentyten/headers/fern.jpg";
+
+
+3. Then edit Mediawiki:Sidebar and add 'MENUBAR'and 'LOGO' sections, e.g.
+
+   * MENUBAR
+   ** Main Page|Home
+   ** About|About
+   ** Contact|Contact
+   * LOGO
+
+   You can also delete the toolbox section, and rearrange everything else to
+   your liking.
+
+4. Report any problems via Github:
+   http://github.com/samwilson/mediawiki_twentyten/issues
+   
