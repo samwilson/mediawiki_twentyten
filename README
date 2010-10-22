@@ -10,6 +10,7 @@ INSTALLATION:
    $wgLogo             = "http://example.com/logo.jpg";
    $wgTwentytenHeader  = "$wgStylePath/twentyten/headers/fern.jpg";
 
+   The header image should be 940 pixels wide.
 
 3. Then edit Mediawiki:Sidebar and add 'MENUBAR'and 'LOGO' sections, e.g.
 
@@ -19,9 +20,9 @@ INSTALLATION:
    ** Contact|Contact
    * LOGO
 
-   You can also delete the toolbox section, and rearrange everything else to
-   your liking.
+   You can also delete the toolbox section (because it's moved to one of the
+   columns in the footer) and rearrange everything else to your liking.
 
-4. Report any problems via Github:
+4. Please report any problems or suggestions via Github:
    http://github.com/samwilson/mediawiki_twentyten/issues
    
