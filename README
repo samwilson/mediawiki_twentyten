@@ -12,7 +12,7 @@ INSTALLATION:
 
    The header image should be 940 pixels wide.
 
-3. Then edit Mediawiki:Sidebar and add 'MENUBAR'and 'LOGO' sections, e.g.
+3. Then edit Mediawiki:Sidebar and add 'MENUBAR' and 'LOGO' sections, e.g.
 
    * MENUBAR
    ** Main Page|Home
@@ -20,8 +20,12 @@ INSTALLATION:
    ** Contact|Contact
    * LOGO
 
-   You can also delete the toolbox section (because it's moved to one of the
-   columns in the footer) and rearrange everything else to your liking.
+   You can rearrange or delete any parts of Sidebar that you wish, but there
+   does need to be some content or MediaWiki will give you default Navigation
+   and Search sections.
+   
+   The toolbox section does not need to be kept, because it's moved to one of
+   the columns in the footer.
 
 4. Please report any problems or suggestions via Github:
    http://github.com/samwilson/mediawiki_twentyten/issues
