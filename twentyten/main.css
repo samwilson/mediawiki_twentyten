@@ -6,3 +6,16 @@ a { color:#007296 }
 
 #site-title img { display:inline; height:30px; border:0 }
 #site-generator a { display:inline; padding:0; text-decoration:underline }
+
+/* Thumbnails from Vector CSS main-ltr.css?270 */
+div.thumb { margin-bottom:0.5em; border-style:solid; border-color:white; width:auto; background-color:transparent }
+div.thumb.tright { clear:right; float:right; border-width:0.5em 0 0.8em 1.4em }
+div.thumb.tleft { float:left; clear:left; margin-right:0.5em; border-width:0.5em 1.4em 0.8em 0 }
+div.thumb div.thumbinner { border:1px solid #ccc; padding:3px !important; background-color:#f9f9f9; font-size:94%; text-align:center; overflow:hidden }
+div.thumb img.thumbimage { border:1px solid #ccc; max-width:none !important }
+div.thumb div.thumbcaption { border:none; text-align:left; line-height:1.4em; padding:3px !important; font-size:94% }
+div.thumb div.magnify { float:right; border:none !important; background:none !important }
+div.thumb div.magnify a,
+div.thumb div.magnify img { display:block; border:none !important; background:none !important }
+div.thumb img.thumbborder { border:1px solid #dddddd }
+.hiddenStructure { display: none }
