@@ -1,0 +1,15 @@
+{
+    "name": "samwilson/mediawiki-twentyten",
+    "description": "A port of the TwentyTen WordPress theme to MediaWiki.",
+    "type": "mediawiki-skin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Sam Wilson",
+            "email": "sam@samwilson.id.au"
+        }
+    ],
+    "require-dev": {
+        "mediawiki/mediawiki-codesniffer": "^13.0"
+    }
+}

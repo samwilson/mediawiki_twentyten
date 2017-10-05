@@ -1,0 +1,39 @@
+{
+	"name": "TwentyTen",
+	"version": "0.2.0",
+	"author": "Sam Wilson",
+	"url": "https://www.mediawiki.org/wiki/Skin:TwentyTen",
+	"descriptionmsg": "twentyten-desc",
+	"namemsg": "skinname-twentyten",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"twentyten": "TwentyTen"
+	},
+	"MessagesDirs": {
+		"TwentyTen": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.TwentyTen": {
+			"styles": {
+				"resources/twentyten/twentyten.css": {
+					"media": "all"
+				},
+				"resources/main.css": {
+					"media": "all"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "TwentyTen"
+	},
+	"AutoloadClasses": {
+		"SkinTwentyTen": "src/SkinTwentyTen.php",
+		"TwentyTenTemplate": "src/TwentyTenTemplate.php"
+	},
+	"manifest_version": 1
+}
